@@ -1,5 +1,7 @@
 # Evolved Social Signaling in Cooperative Foraging Robots: From 2D to Physically Embodied 3D
 
+[![DOI](https://zenodo.org/badge/1335985558.svg)](https://doi.org/10.5281/zenodo.21967055)
+
 <table>
   <tr>
     <td align="center">
