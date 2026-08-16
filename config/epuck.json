@@ -1,0 +1,74 @@
+{
+  "_comment": "ePuck Physical & Simulation Configuration v1.7.0",
+  "world": {
+    "size": 1.5,
+    "gravity": -9.81,
+    "timestep": 0.00416667,
+    "realtime_simulation": false
+  },
+  "robot": {
+    "urdf_path": "robots/epuck_sim.urdf",
+    "wheel_radius": 0.02,
+    "max_motor_torque": 2.0, 
+    "max_speed": 0.15,
+    "spawn_margin": 0.15,
+    "friction": {
+      "wheel": 1.5,
+      "chassis": 0.01,
+      "caster": 0.05
+    },
+    "linear_damping": 0.9,
+    "angular_damping": 0.9
+  },
+  "sensors": {
+    "num_sensors": 8,
+    "range": 0.20,
+    "obstacle_threshold": 0.12,
+    "visualize_rays": false
+  },
+  "stuck_detection": {
+    "enabled": true,
+    "threshold_frames": 150,
+    "movement_threshold": 0.05,
+    "sensor_threshold": 0.25,
+    "effort_threshold": 0.20,
+    "grace_period": 80,
+    "history_length": 40
+  },
+  "unstuck": {
+    "enabled": true,
+    "reverse_frames": 22,
+    "turn_frames": 55,
+    "reverse_speed": 0.22,
+    "turn_speed": 0.26
+  },
+  "seek_recharge": {
+    "slow_speed": [0.05, 0.05]
+  },
+  "output": {
+    "verbosity": 1,
+    "sensor_print_freq": 50,
+    "save_best_every": 1,
+    "output_dir": "best_chromosomes"
+  },
+  "visualization": {
+    "camera_distance": 1.0,
+    "camera_yaw": 45,
+    "camera_pitch": -35,
+    "camera_target": [0, 0, 0.03],
+    "show_controls_menu": true,
+    "fast_mode_default": false
+  },
+  "bitmask": {
+    "num_rules": 8,
+    "actions": ["forward", "left", "right", "reverse", "wander"],
+    "free_space_actions": ["forward", "left", "right", "wander", "reverse"],
+    "action_table": {
+      "forward": [1.0, 1.0],
+      "left": [0.2, 1.0],
+      "right": [1.0, 0.2],
+      "reverse": [-0.5, -0.5],
+      "wander": [0.6, 0.35]
+    }
+  }
+}

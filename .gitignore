@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+venv/
+env/
+.venv/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+
+# Simulation / experiment artifacts (regenerable, not versioned)
+log_*.txt
+*.log
+outputs/
+runs/
+
+# Large or intermediate model checkpoints not part of the official set
+# (keep only the checkpoints referenced in the paper under models/,
+# comment out or adjust this line if you need to track more)
+# models/*_gen[0-9]*.json
+
+# Local scratch / cache
+.cache/
+*.tmp
+
+# Own Files
+test.txt

@@ -1,0 +1,8 @@
+{
+  "encoding": "braitenberg",
+  "left_weights":  [-0.8, -0.6, -0.3, -0.15, 0.15, 0.3, 0.6, 0.8],
+  "right_weights": [0.8, 0.6, 0.3, 0.15, -0.15, -0.3, -0.6, -0.8],
+  "left_bias": 0.3,
+  "right_bias": 0.3,
+  "max_speed": 0.15
+}
