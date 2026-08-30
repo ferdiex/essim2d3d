@@ -1,15 +1,15 @@
 # ESSIM — Evolved Social Signaling in Cooperative Foraging Robots
 
-[![ps://zenodo.org/badge/1335985558.svg](https://doi.org/10.5281/zenodo.22169083)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22169083.svg)](https://doi.org/10.5281/zenodo.22169083)
 
-<table>
+<table border="0">
   <tr>
     <td align="center">
-      images/essim2d.png<br/>
+      <img src="images/essim2d.png" width="400"><br/>
       <b>2D Simulation</b>
     </td>
     <td align="center">
-      <img src="images/essr/>
+      <img src="images/essim3d.png" width="400"><br/>
       <b>3D Simulation</b>
     </td>
   </tr>
@@ -20,16 +20,12 @@ This repository contains the code used to train, evaluate, transfer, and analyze
 ## Associated Publications
 
 ### Version v1.0.1-paper
-
 **Evaluation of the Transfer of Co-Evolved Behaviors from 2D to 3D**
-
-DOI: https://doi.org/10.5281/zenodo.21967056
+* DOI: [https://doi.org/10.5281/zenodo.21967056](https://doi.org/10.5281/zenodo.21967056)
 
 ### Version v2.0-paper
-
 **Latent Space Diagnostics of Co-Evolved Foraging Behaviors**
-
-DOI: https://doi.org/10.5281/zenodo.22169083
+* DOI: [https://doi.org/10.5281/zenodo.22169083](https://doi.org/10.5281/zenodo.22169083)
 
 Please cite the Zenodo release corresponding to the version used in your study.
 
