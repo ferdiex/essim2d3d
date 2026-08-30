@@ -1,6 +1,6 @@
 # ESSIM — Evolved Social Signaling in Cooperative Foraging Robots
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo3.svg](https://doi.org/10.5281/zenodo.22169083)
+[![ps://zenodo.org/badge/1335985558.svg](https://doi.org/10.5281/zenodo.22169083)
 
 <table>
   <tr>
@@ -9,13 +9,13 @@
       <b>2D Simulation</b>
     </td>
     <td align="center">
-      <mages/essim3d.png<br/>
+      <img src="images/essr/>
       <b>3D Simulation</b>
     </td>
   </tr>
 </table>
 
-This repository contains the code used to train, evaluate, transfer, and analyze evolved GRU-based controllers with social signaling in a two-robot cooperative foraging task, using both a discrete 2D grid simulator and a physics-based 3D simulator (PyBullet). The repository also includes latent space diagnostic tools for studying the internal representations learned by evolved controllers.
+This repository contains the code used to train, evaluate, transfer, and analyze evolved GRU-based controllers with social signaling in a two-robot cooperative foraging task using both a discrete 2D grid simulator and a physics-based 3D simulator (PyBullet). The repository also includes latent space diagnostic tools for studying the internal representations learned by evolved controllers.
 
 ## Associated Publications
 
