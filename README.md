@@ -1,24 +1,37 @@
-# Evolved Social Signaling in Cooperative Foraging Robots: From 2D to Physically Embodied 3D
+# ESSIM — Evolved Social Signaling in Cooperative Foraging Robots
 
-[![DOI](https://zenodo.org/badge/1335985558.svg)](https://doi.org/10.5281/zenodo.21967055)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo3.svg](https://doi.org/10.5281/zenodo.22169083)
 
 <table>
   <tr>
     <td align="center">
-      <img src="images/essim2d.png" width="300"/><br/>
+      images/essim2d.png<br/>
       <b>2D Simulation</b>
     </td>
     <td align="center">
-      <img src="images/essim3d.png" width="300"/><br/>
+      <mages/essim3d.png<br/>
       <b>3D Simulation</b>
     </td>
   </tr>
 </table>
 
-This repository contains the code used to train, evaluate, and diagnose
-evolved GRU-based controllers with social signaling in a two-robot
-cooperative foraging task, in both a discrete 2D grid simulator and a
-physics-based 3D simulator (PyBullet).
+This repository contains the code used to train, evaluate, transfer, and analyze evolved GRU-based controllers with social signaling in a two-robot cooperative foraging task, using both a discrete 2D grid simulator and a physics-based 3D simulator (PyBullet). The repository also includes latent space diagnostic tools for studying the internal representations learned by evolved controllers.
+
+## Associated Publications
+
+### Version v1.0.1-paper
+
+**Evaluation of the Transfer of Co-Evolved Behaviors from 2D to 3D**
+
+DOI: https://doi.org/10.5281/zenodo.21967056
+
+### Version v2.0-paper
+
+**Latent Space Diagnostics of Co-Evolved Foraging Behaviors**
+
+DOI: https://doi.org/10.5281/zenodo.22169083
+
+Please cite the Zenodo release corresponding to the version used in your study.
 
 ## Overview
 
