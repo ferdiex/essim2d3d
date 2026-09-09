@@ -27,6 +27,10 @@ This repository contains the code used to train, evaluate, transfer, and analyze
 **Latent Space Diagnostics of Co-Evolved Foraging Behaviors**
 * DOI: [https://doi.org/10.5281/zenodo.22169083](https://doi.org/10.5281/zenodo.22169083)
 
+### Version v1.0-latent_drem
+**Lessons from a Latent World Model in Cooperative Evolutionary Robotics**
+* DOI: [https://doi.org/10.5281/zenodo.22678602](https://doi.org/10.5281/zenodo.22678602)
+
 Please cite the Zenodo release corresponding to the version used in your study.
 
 ## Overview
