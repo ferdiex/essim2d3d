@@ -40,5 +40,9 @@ runs/
 .cache/
 *.tmp
 
+# Ignore documentation and cache inside latent_drem
+latent_drem/README_world_model_addition.md
+latent_drem/REPRODUCIBILITY.md
+
 # Own Files
 test.txt
