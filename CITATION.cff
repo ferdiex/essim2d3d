@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Montes-Gonzalez"
+  given-names: "Fernando"
+  orcid: "https://orcid.org/0000-0002-8024-3023"
+title: "ferdiex/essim2d3d: Frozen Release - Paper Version 2.0"
+version: "v1.0-latent_drem"
+doi: "10.5281/zenodo.22678602"
+date-released: "2026-09-09"
+url: "https://github.com/ferdiex/essim2d3d"
