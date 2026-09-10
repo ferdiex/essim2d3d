@@ -56,6 +56,15 @@ def collect_rhos(paths, col_a, col_b):
     return rhos, n
 
 
+def format_p(p):
+    """Round(p, 6) silently collapses very small p-values (e.g. 1.8e-11)
+    to exactly 0.0, losing the information that it's tiny-but-nonzero.
+    Keep a floor label instead of a false zero."""
+    if p < 1e-6:
+        return "<0.000001"
+    return round(p, 6)
+
+
 def build_table(data_dir, out_dir):
     length_paths = sorted(glob.glob(os.path.join(data_dir, "truncated_v15_1500pasos_seed*.csv")))
     count_paths = sorted(glob.glob(os.path.join(
@@ -70,11 +79,11 @@ def build_table(data_dir, out_dir):
     table = pd.DataFrame([
         {"metodo": "Duración reducida (1500 de 2000 pasos)",
          "n_semillas": len(length_rhos), "rho_agrupado": round(rho_len, 3),
-         "p": round(p_len, 6), "ic_95_inf": round(lo_len, 3), "ic_95_sup": round(hi_len, 3),
+         "p": format_p(p_len), "ic_95_inf": round(lo_len, 3), "ic_95_sup": round(hi_len, 3),
          "ahorro_aprox": "1.3x"},
         {"metodo": "Cantidad reducida (7 de 9 episodios)",
          "n_semillas": len(count_rhos), "rho_agrupado": round(rho_cnt, 3),
-         "p": round(p_cnt, 6), "ic_95_inf": round(lo_cnt, 3), "ic_95_sup": round(hi_cnt, 3),
+         "p": format_p(p_cnt), "ic_95_inf": round(lo_cnt, 3), "ic_95_sup": round(hi_cnt, 3),
          "ahorro_aprox": "1.29x"},
     ])
 
