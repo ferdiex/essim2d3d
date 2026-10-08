@@ -9,3 +9,27 @@ version: "v1.0-latent_drem"
 doi: "10.5281/zenodo.22678602"
 date-released: "2026-09-09"
 url: "https://github.com/ferdiex/essim2d3d"
+repository-code: "https://github.com/ferdiex/essim2d3d"
+identifiers:
+- type: doi
+  value: "10.5281/zenodo.22678602"
+  description: "Zenodo archive of this software release"
+- type: doi
+  value: "10.48550/arXiv.2610.09280"
+  description: "arXiv preprint of the associated paper"
+- type: url
+  value: "https://arxiv.org/abs/2610.09280"
+  description: "arXiv abstract page"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Montes-Gonzalez"
+    given-names: "Fernando"
+    orcid: "https://orcid.org/0000-0002-8024-3023"
+  title: "Evaluating the Transfer of Co-Evolved Communication from 2D to 3D Simulation"
+  journal: "arXiv preprint"
+  year: 2026
+  month: 10
+  date-published: "2026-10-07"
+  doi: "10.48550/arXiv.2610.09280"
+  url: "https://arxiv.org/abs/2610.09280"
