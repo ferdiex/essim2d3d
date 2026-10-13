@@ -2,6 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22169083.svg)](https://doi.org/10.5281/zenodo.22169083)
 [![arXiv](https://img.shields.io/badge/arXiv-2610.09280-b31b1b.svg)](https://arxiv.org/abs/2610.09280)
+[![Demo](https://img.shields.io/badge/%F0%9F%A4%97%20Demo-essim2d--demo-yellow)](https://huggingface.co/spaces/xferdie/essim2d-demo)
 
 <table border="0">
   <tr>
